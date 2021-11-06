@@ -10,7 +10,7 @@ class SQRServiceTest {
     void shoutSqrt() {
         SQRService sqrService = new SQRService();
         int expected = 10;
-        int actual = sqrService.sqrt(100, 300 );
+        int actual = sqrService.calculateSqrt(100, 300);
         assertEquals(expected, actual);
 
     }
